@@ -58,4 +58,4 @@ This project is a **React.js assignment** completed as part of the internship pr
 ---
 
 ## 📸 Screenshots
-![App Screenshot](./src/assets/screenshot.png)
+![Screenshot](./src/assets/pageScreenshot.png)
