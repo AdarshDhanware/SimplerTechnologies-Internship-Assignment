@@ -1,12 +1,61 @@
-# React + Vite
+# Internship Assignment - SimplerTechnologies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **React.js assignment** completed as part of the internship process at **SimplerTechnologies**. It includes a responsive **Navbar**, a validated **Sign-Up Page**, and a **User Card** component.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- **Navbar**
+  - Responsive navigation bar with desktop and mobile menu.
+  - Mobile hamburger menu with smooth open/close animation.
+  - Hover underline effect for menu items.
+- **Sign-Up Page**
+  - User-friendly sign-up form with validation:
+    - Full Name required.
+    - Email format validation.
+    - Password minimum 6 characters.
+  - Password show/hide toggle.
+  - Error messages shown inline.
+  - Success alert on valid submission.
+- **User Card**
+  - Landscape card layout with profile icon (first letter of user’s name).
+  - Displays Name and Email fields with labels.
+  - Fully responsive design.
+  - Smooth hover shadow effect.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+```
+├── public
+├── src
+│ ├── assets
+│ ├── components
+│ │ ├── Navbar.jsx
+│ │ ├── SignUpPage.jsx
+│ │ └── UserCard.jsx
+│ ├── App.jsx
+│ ├── index.css
+│ └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── html.html
+├── package-lock.json
+├── package.json
+├── README.md
+└── vite.config.js
+```
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React  
+- **Styling:** TailwindCSS  
+- **Build Tool:** Vite  
+- **UI Libraries:** React Icons  
+
+---
+
+## 📸 Screenshots
+![App Screenshot](./src/assets/screenshot.png)
