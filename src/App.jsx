@@ -8,7 +8,7 @@ const App = () => {
     <div className='w-full h-screen bg-zinc-900'>
       <Navbar/>
       <SignUpPage/>
-      <UserCard name="Adarsh" email="hello@hel.com"/>
+      <UserCard name="Michael Smith" email="michael.smith@example.com"/>
     </div>
   )
 }
